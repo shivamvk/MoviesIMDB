@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:background="#ddd">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cv_search_results"
+        android:layout_marginTop="16dp"
+        android:background="#fff"
+        android:elevation="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="180dp"
+                android:src="@drawable/trending1"
+                android:id="@+id/iv_search_results_image"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:contentDescription="@string/poster_image"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/iv_search_results_image"
+                android:layout_toEndOf="@+id/iv_search_results_image"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:id="@+id/tv_search_results_movie_title"
+                    android:textColor="@android:color/black"
+                    android:text="MovieTitle"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginStart="22dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="8dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/iv_search_results_rating_one"
+                        android:src="@drawable/ic_star_black_24dp"
+                        android:tint="@android:color/black"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/iv_search_results_rating_two"
+                        android:src="@drawable/ic_star_black_24dp"
+                        android:tint="@android:color/black"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/iv_search_results_rating_three"
+                        android:src="@drawable/ic_star_black_24dp"
+                        android:tint="@android:color/black"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/iv_search_results_rating_four"
+                        android:src="@drawable/ic_star_black_24dp"
+                        android:tint="@android:color/black"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/iv_search_results_rating_five"
+                        android:src="@drawable/ic_star_black_24dp"
+                        android:tint="@android:color/black"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bt_search_results_add_to_fav"
+                    android:text="@string/add_to_favorites"
+                    android:background="@android:color/holo_green_light"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginStart="22dp"/>
+
+                <Button
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bt_search_results_watch_trailer"
+                    android:text="@string/watch_trailer"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginLeft="22dp"
+                    android:background="@android:color/holo_green_light"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

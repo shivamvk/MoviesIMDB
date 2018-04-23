@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shivamvk.moviesimdb.FavoritesActivity">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs_favorites_activity"
+            style="@style/MoviesTvShowsTAB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <android.support.v4.view.ViewPager
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/view_pager_favorites_activity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v4.view.ViewPager>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recycler_view_movies_favorites_fragment"
+            android:layoutAnimation="@anim/layout_animation_from_bottom">
+
+        </android.support.v7.widget.RecyclerView>
+
+</android.support.constraint.ConstraintLayout>

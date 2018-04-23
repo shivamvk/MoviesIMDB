@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "173274356975",
+    "firebase_url": "https://moviesimdb-ef301.firebaseio.com",
+    "project_id": "moviesimdb-ef301",
+    "storage_bucket": "moviesimdb-ef301.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173274356975:android:3d67e36099f4b87e",
+        "android_client_info": {
+          "package_name": "com.example.shivamvk.moviesimdb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173274356975-9c2vpffqpl7uft4utakmn42r90flpbtc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shivamvk.moviesimdb",
+            "certificate_hash": "235bd663aa8eae5d0c03c55cd40e2577b986bf9e"
+          }
+        },
+        {
+          "client_id": "173274356975-a5h831hrdihjf95qui8l7ufpp5sjtfde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuVjsB1ZZTn1zjn-p8hHZ6eYmQKmr8L6g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173274356975-a5h831hrdihjf95qui8l7ufpp5sjtfde.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

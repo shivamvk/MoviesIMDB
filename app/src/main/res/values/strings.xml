@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Movies IMDB</string>
+    <string name="sign_in_with_email">Sign in with email</string>
+    <string name="enter_your_credentials">Enter your Credentials</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="treding_movies">Treding Movies</string>
+    <string name="trending_movies_description">Trending Movies Description</string>
+    <string name="title_activity_movie_details">MovieDetailsActivity</string>
+    <string name="lorem_ipsum">lorem ipsum</string>
+    <string name="poster_image">Poster Image</string>
+    <string name="add_to_favorites">Add to favorites</string>
+    <string name="watch_trailer">Watch Trailer</string>
+    <string name="view_all">View all</string>
+    <string name="genre_action">Action</string>
+    <string name="genre_comedy">Comedy</string>
+    <string name="type_a_movie_name">Type a movie name</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="trending_on_tv">Trending on TV</string>
+
+    <string name="movies">Movies</string>
+    <string name="tvshows">Tv Shows</string>
+
+</resources>

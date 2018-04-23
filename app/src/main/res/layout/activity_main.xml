@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shivamvk.moviesimdb.MainActivity"
+    android:background="@android:color/white">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/bt_splash_login_email"
+            android:text="@string/sign_in_with_email"
+            android:layout_margin="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/bt_splash_login_gmail"
+            android:background="@android:color/holo_green_light"/>
+
+    <com.shobhitpuri.custombuttons.GoogleSignInButton
+        android:id="@+id/bt_splash_login_gmail"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_margin="16dp"
+        android:layout_centerInParent="true"
+        android:text="@string/google_sign_up"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:isDarkTheme="false" />
+
+</android.support.constraint.ConstraintLayout>
