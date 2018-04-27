@@ -17,4 +17,4 @@ You can also click on any movie in the list and can move to the movie details ac
 
 You can also serahc for a movie or tv show with the search option in the toolbar.
 
-<img src="https://github.com/shivamvk/MoviesIMDB/blob/master/Screenshot_20180427-165442.png" height="40px" width="250px"/>
+<img src="https://github.com/shivamvk/MoviesIMDB/blob/master/Screenshot_20180427-165442.png" height="400px" width="250px"/>
